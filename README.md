@@ -7,7 +7,7 @@ Predicts an employee’s layoff risk (Low, Medium or High) from job and AI-use d
 ## Team and roles
 
 | Member | Entry no. | Role | 
-|---|---|---|---|---|
+|---|---|---|
 | Shreyas Iyer | 2026EEB1412 | Documentation lead |
 | Hisham | 2026MCB1530 | Execution lead |
 | Saniya Jain | 2026DAB1306 | PPT lead |
