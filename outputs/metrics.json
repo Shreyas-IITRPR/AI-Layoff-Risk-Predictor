@@ -1,0 +1,16 @@
+{
+  "Train":{
+    "Accuracy":0.941,
+    "Precision (macro)":0.9409237957,
+    "Recall (macro)":0.9408601347,
+    "F1 (macro)":0.9408876548,
+    "ROC AUC (macro, one-vs-rest)":0.9945803075
+  },
+  "Test":{
+    "Accuracy":0.93775,
+    "Precision (macro)":0.9375481819,
+    "Recall (macro)":0.9375297089,
+    "F1 (macro)":0.9375346715,
+    "ROC AUC (macro, one-vs-rest)":0.9938849272
+  }
+}
