@@ -31,3 +31,17 @@ pip install -r requirements.txt
 3. Choose **Kernel → Restart & Run All**. It finishes in well under a minute and saves the plots and `metrics.json` in `outputs/` (and `training_curve_gd.png` in the repo folder).
 
 The data path is relative (`ai-impact-jobs-layoff-risk-dataset.csv`), so the notebook and the CSV must stay in the same folder.
+
+## Expected output
+
+| | Train | Test |
+|---|---|---|
+| Accuracy | 0.941000 | 0.937750 |
+| Precision (macro) | 0.940924 | 0.937548 |
+| Recall (macro) | 0.940860 | 0.937530 |
+| F1 (macro) | 0.940888 | 0.937535 |
+| ROC AUC (macro, one-vs-rest) | 0.994580 | 0.993885 |
+
+<img width="890" height="340" alt="training_curve_gd" src="https://github.com/user-attachments/assets/3e12f13a-47a8-4d8a-95d2-d0336c27c970" />
+<img width="851" height="390" alt="Confusion_Matrix" src="https://github.com/user-attachments/assets/23a5a4eb-f01b-46c4-888e-0bdb04db653f" />
+<img width="890" height="390" alt="ROC_curve" src="https://github.com/user-attachments/assets/5773a3f1-bd2b-46d9-a25a-77b82dec8189" />
