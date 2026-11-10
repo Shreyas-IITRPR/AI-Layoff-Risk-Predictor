@@ -6,12 +6,25 @@
 Predicts an employee’s layoff risk (Low, Medium or High) from job and AI-use data
 ## Team and roles
 
-| Member | Entry no. | Role | 
-|---|---|---|
-| Shreyas Iyer | 2026EEB1412 | Documentation lead |
-| Hisham | 2026MCB1530 | Execution lead |
-| Saniya Jain | 2026DAB1306 | PPT lead |
-| Bhakti Bagade | 2026AIB1027 | Video lead |
+| Member | Entry no. | Role | GitHub Handle|
+|---|---|---|---|
+| Shreyas Iyer | 2026EEB1412 | Documentation lead | Shreyas-IITRPR |
+| Hisham Muhammad K | 2026MCB1530 | Execution lead | Hisham-iitrpr |
+| Saniya Jain | 2026DAB1306 | PPT lead | Saniya-Jn |
+| Bhakti Bagade | 2026AIB1027 | Video lead | Bhakti-iitrpr |
+
+## Project structure
+
+```
+AI-Layoff-Risk-Predictor/
+├── ai101_team28.ipynb              # all code, with output cells
+├── ai-impact-jobs-layoff-risk-dataset.csv   # dataset (keep it next to the notebook)
+├── training_curve_gd.png                    # training curve, saved by the notebook
+├── outputs/                                 # plots and metrics.json saved by the notebook
+├── docs/Team28_slides.pdf                  # 5 slides
+├── requirements.txt
+└── README.md
+```
 
 ## Setup
 
