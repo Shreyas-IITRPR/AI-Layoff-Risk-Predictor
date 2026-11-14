@@ -73,7 +73,8 @@ The data path is relative (`ai-impact-jobs-layoff-risk-dataset.csv`), so the not
 <img width="890" height="390" alt="ROC_curve" src="https://github.com/user-attachments/assets/5773a3f1-bd2b-46d9-a25a-77b82dec8189" />
 
 ## Links
-Slides: `https://drive.google.com/file/d/1vXiiMBQ3SsCNKfQXjiQKUsnSEoDO3oOH/view?usp=drivesdk` 
+- Slides: [Team28_slides](https://drive.google.com/file/d/1vXiiMBQ3SsCNKfQXjiQKUsnSEoDO3oOH/view?usp=drivesdk)
+- Video: [Project Video](https://drive.google.com/file/d/1pzjD4EJI8dMH936MUILzIbMN4KOArENa/view?usp=sharing)
 
 ## Note
 
