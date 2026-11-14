@@ -8,20 +8,27 @@ Predicts an employee’s layoff risk (Low, Medium or High) from job and AI-use d
 
 | Member | Entry no. | Role | GitHub Handle|
 |---|---|---|---|
-| Shreyas Iyer | 2026EEB1412 | Documentation lead | `@Shreyas-IITRPR` |
-| Hisham Muhammad K | 2026MCB1530 | Execution lead | `@Hisham-iitrpr` |
-| Saniya Jain | 2026DAB1306 | PPT lead | `@Saniya-Jn` |
-| Bhakti Bagade | 2026AIB1027 | Video lead | `@Bhakti-iitrpr` |
+| Shreyas Iyer | 2026EEB1412 | Documentation lead | [@Shreyas-IITRPR](https://github.com/Shreyas-IITRPR) |
+| Hisham Muhammad K | 2026MCB1530 | Execution lead | [@Hisham-iitrpr](https://github.com/Hisham-iitrpr) |
+| Saniya Jain | 2026DAB1306 | PPT lead | [@Saniya-Jn](https://github.com/Saniya-Jn) |
+| Bhakti Bagade | 2026AIB1027 | Video lead | [@Bhakti-iitrpr](https://github.com/Bhakti-iitrpr) |
 
 ## Project structure
 
 ```
 AI-Layoff-Risk-Predictor/
-├── ai101_team28.ipynb              # all code, with output cells
+├── ai101_team28.ipynb                       # all code, with output cells
 ├── ai-impact-jobs-layoff-risk-dataset.csv   # dataset (keep it next to the notebook)
 ├── training_curve_gd.png                    # training curve, saved by the notebook
-├── outputs/                                 # plots and metrics.json saved by the notebook
-├── docs/Team28_slides.pdf                  # 5 slides
+├── outputs/                                 # plots and metrics saved by the notebook
+│   ├── class_balance.png                    # number of employees in each risk class
+│   ├── correlation_heatmap.png              # correlation of the numeric features
+│   ├── confusion_matrices.png               # train and test confusion matrices
+│   ├── roc_curves.png                       # one-vs-rest ROC curves, train and test
+│   ├── coefficients_high_risk.png           # coefficients for the High risk class
+│   └── metrics.json                         # train and test metrics table
+├── docs/
+│   └── Team28_slides.pdf                    # 5 slides
 ├── requirements.txt
 └── README.md
 ```
